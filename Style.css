@@ -59,6 +59,10 @@ body{
     flex-direction: column;
 }
 
+.menu{
+    visibility: hidden;
+}
+
 @media only screen and (max-width: 792px) {
     body{
         margin: 0;
@@ -192,6 +196,12 @@ body{
         align-content: center;
         justify-content: center;
     }
+
+    .menu{
+        visibility: visible;
+        margin-left: 60vw;
+        height: 10vh;
+    }
   }
 
   @media only screen and (max-width: 347px) {
@@ -265,5 +275,11 @@ body{
         flex-direction: column;
         align-content: center;
         justify-content: center;
+    }
+
+    .menu{
+        visibility: visible;
+        margin-left: 50vw;
+        height: 10vh;
     }
   }
